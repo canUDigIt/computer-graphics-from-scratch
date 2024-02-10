@@ -7,7 +7,7 @@ const canvas_height: i32 = 512;
 const view_width: i32 = 1;
 const view_height: i32 = 1;
 
-const inf: f32 = 1.0e9;
+const inf: f32 = std.math.floatMax(f32);
 const d: i32 = 1;
 
 const Color = struct {
